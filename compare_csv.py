@@ -571,5 +571,6 @@ def validate_vm_report(expected_report, actual_report, validation_summary):
         print(traceback.format_exc())
         return False
 
-
+print("*******")
 print(validate_vm_report("C:/temp/q.csv", "C:/temp/v.csv", "C:/temp/summary_new.txt"))
+print("*******")
