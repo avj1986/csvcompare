@@ -1,4 +1,4 @@
-# CSV Compare
+# CSV Compare Readme file
 This script will compare two CSV files with diverse header formats and spool the differences in Summary file.
 E.g. 
 ****************************************************************************************************
