@@ -1,0 +1,8 @@
+import os
+### This will generate absolute path of script/property file regardless of the path you are executing the script from.
+
+print("*" * 10)
+fileAbsPath = os.path.abspath(__file__)
+dirAbsPath = os.path.dirname(fileAbsPath)
+print(dirAbsPath)
+print(os.listdir(dirAbsPath+"/../Setup/Variables/"))
